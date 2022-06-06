@@ -56,8 +56,10 @@ cd activation
 
 cd ..
 
+sudo cp pal.pc /usr/local/lib/pkgconfig/
+
+sudo ./setsymlinks
 
 ./timeout_patch.sh
 
 sudo ./PAL_udev.sh
-
