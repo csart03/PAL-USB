@@ -58,7 +58,7 @@ cd ..
 
 sudo cp pal.pc /usr/local/lib/pkgconfig/
 
-sudo ./setsymlinks
+sudo ./setsymlinks.sh
 
 ./timeout_patch.sh
 
